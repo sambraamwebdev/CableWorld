@@ -1,0 +1,10 @@
+{
+  "development": {
+    "mongoHost": "mongodb://appadmin:7ni6GfJuxbkCCN@ds025802.mlab.com:25802/xpert_world_users",
+    "errorHandlerOptions": {"dumpExceptions": true, "showStack": true}
+  },
+  "production": {
+    "mongoHost": "mongodb://0.0.0.0:27017/puwebdev3dviewer",
+    "errorHandlerOptions": {"dumpExceptions": false, "showStack": false}
+  }
+}
